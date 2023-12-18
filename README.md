@@ -1,16 +1,16 @@
 My Portfolio
 
-# Description
+## Description
 A set up of my Portfolio for future Employers to examine during the hiring process.
 
 ## Installation 
 
 
-# Visuals 
+## Visuals 
 
 
-# Credits 
+## Credits 
 https://www.w3schools.com/
 
-# License
+## License
 MIT
