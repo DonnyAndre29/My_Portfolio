@@ -1,0 +1,114 @@
+body {
+    background-color: silver;
+}
+
+
+/* Top Navigation Bar */
+.topnav {
+  text-align: center;
+  padding: 50px;
+  
+  }
+
+ 
+  /* Color of the Tabs */
+  .topnav a {
+    color: green;
+    padding: 20px;
+    font-size: 20px;       
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+  
+   
+  .glove {
+
+    position: initial;
+    
+  }
+
+
+  .base {
+
+    position: initial;
+        
+  }
+
+
+  .bat {
+
+    position: initial;
+    
+  }
+
+  /* Portfolio Section */
+  .port {
+    text-align: center;
+    font-size: large;
+    color: darkblue;
+    padding: 100px 0;
+    border: 5px solid darkblue;
+    background-color: green;
+  }
+
+  /* Portfolio tab to go back to top of page */
+  .portfolio {
+    cursor: pointer;
+    text-decoration-line: none;
+  }
+  
+  /* About me section */
+  .about-section {    
+    text-align: center;
+    font-size: large;
+    color: green;
+    padding: 100px 0;
+    border: 5px solid green;
+    background-color: darkblue;
+  }
+
+  /* Background tab to go back to top of page */
+  .background {
+    cursor: pointer;
+    text-decoration-line: none;
+  }
+
+  /* Contact Info */
+  .connect {
+    text-align: center; 
+    font-size: large;   
+    color: darkblue;
+    padding: 100px 0;
+    border: 5px solid darkblue;
+    background-color: green;
+  }
+
+  /* Contact Links */
+  .connect a {
+    color: darkblue;
+    padding: 10px;
+  }
+
+  /* Info tab to go back to top of page */
+  .info {
+    cursor: pointer;
+    text-decoration-line: none;
+  }
+
+
+  .footer{
+    text-align: right;
+    color:  green;
+    padding: 20px 0;
+  }
+
+
+  
+ 
+ 
+ 
