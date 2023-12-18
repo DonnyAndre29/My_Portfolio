@@ -1,9 +1,9 @@
-My_Portfolio
+My Portfolio
 
 # Description
 A set up of my Portfolio for future Employers to examine during the hiring process.
 
-# Installation 
+## Installation 
 
 
 # Visuals 
