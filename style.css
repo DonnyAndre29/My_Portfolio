@@ -1,14 +1,25 @@
 body {
     background-color: silver;
-}
+  }
 
 
 /* Top Navigation Bar */
 .topnav {
   text-align: center;
+  /* float: middle; */
+  font-size: 40px;
   padding: 50px;
+  border: 5px solid green;
+  background-color: darkblue;
   
   }
+
+  /* .nickname {
+    color: green;
+    text-align: left;
+    font-size: 50px;
+    padding: 10px;
+  } */
 
  
   /* Color of the Tabs */
@@ -32,6 +43,10 @@ body {
     
   }
 
+  .glove_two {
+    border-radius: 0;
+  }
+
 
   .base {
 
@@ -39,11 +54,19 @@ body {
         
   }
 
+  .base_two {
+    border-radius: 0;
+  }
+
 
   .bat {
 
     position: initial;
     
+  }
+
+  .bat_two {
+    border-radius: 0;
   }
 
   /* Portfolio Section */
@@ -83,7 +106,7 @@ body {
   /* Contact Info */
   .connect {
     text-align: center; 
-    font-size: large;   
+    font-size: 20px;   
     color: darkblue;
     padding: 100px 0;
     border: 5px solid darkblue;
@@ -96,6 +119,10 @@ body {
     padding: 10px;
   }
 
+  .connect a:hover {
+    color: white;
+  }
+
   /* Info tab to go back to top of page */
   .info {
     cursor: pointer;
@@ -103,6 +130,168 @@ body {
     color: darkblue;
   }
 
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+ /* Card body's will contain organized  */
+  .card-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p.big {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+p.long {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Resume container blocks - this is holding the blocks into the center of the page - otherwise the containers would be pushed out to the edge of the page */
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 5 rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Flexbox: Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+  .card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 3rem;
+  } 
+
+  .code-card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 4rem;
+    color: green;
+    outline: 2px double gre;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  } 
+
+  /* Resume: block image radius: */
+  img {
+  border-radius: 20px;
+  }
+
+
+ /* Code card header */
+.code-card .card-header {
+  border: 2px solid green;
+  border-radius: 8px;
+  background-color: darkblue;
+  color: green;
+  transition: all 0.5s ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin: -4rem 0 1.5rem 0;
+  padding: 0.5rem 1rem;
+}
+
+/* Resume: card hover/glow effect turns on when mouse gloats */
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px darkblue, 0 0 15px darkblue;
+  }
+
+  /* Resume: code block flex */
+.code-card .code-block {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+
+  /* Resume: code card structure */
+.code-card pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  border-radius: 60px;
+  tab-size: 4;
+  padding: 1.2rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.code-card pre:active {
+  user-select: all;
+}
+
+/* Mobile width settings */
+@media screen and (min-width: 768px) {
+
+  .card-column {
+      flex: 0 0 50%;
+  }
+
+}
+
+/* Large screen monitor layout width settings */
+@media screen and (min-width: 992px) {
+  .card-column {
+      flex: 0 0 33%;
+  }
+}
 
   .footer{
     text-align: right;
