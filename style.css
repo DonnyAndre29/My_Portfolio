@@ -14,12 +14,18 @@ body {
   
   }
 
-  /* .nickname {
-    color: green;
-    text-align: left;
+  .nickname {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    width: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
     font-size: 50px;
-    padding: 10px;
-  } */
+    padding: .5 em;
+    border-radius: 10px;
+  }
 
  
   /* Color of the Tabs */
@@ -130,17 +136,30 @@ body {
     color: darkblue;
   }
 
-  .fa {
+  .fab {
     padding: 10px;
     font-size: 20px;
-    width: 50px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
+    text-decoration-line: none;
     margin: 3px 2px;
+    border-radius: 50%;
   }
   
-  .fa:hover {
-      opacity: 0.7;
+  .fas {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    margin: 3px 2px;
+    border-radius: 50%;
+  }
+
+  .fab:hover {
+    opacity: 0.7;
   }
 
   .fa-yahoo {
@@ -151,6 +170,16 @@ body {
   .fa-linkedin {
     background: #007bb5;
     color: white;
+  }
+
+  .fa-phone {
+    background: grey;
+    color: white;
+  }
+
+  .fa-github {
+    background: white;
+    color: black;
   }
 
  /* Card body's will contain organized  */
@@ -176,9 +205,11 @@ p.long {
 
 
 * {
-  box-sizing: border-box;
+
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  
   
 }
 
